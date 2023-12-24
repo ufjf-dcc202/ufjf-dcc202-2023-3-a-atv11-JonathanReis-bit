@@ -1,3 +1,4 @@
+import { adicionaNaLista, getLista, limpaLista, removeDaLista } from "./lista.js";
 
 
 const pEntrada = document.querySelector("#entrada");
