@@ -9,6 +9,13 @@ atualizarListaOrdenada();
 btnAdicionar.addEventListener('click',adicionaItemDaEntrada);
 
 
+function adicionaItemDaEntrada(){
+    const valor = pEntrada.textContent;
+    adicionaNaLista(valor);
+    pEntrada.textContent="";
+    atualizarListaOrdenada();
+}
+
 
 
 function atualizarListaOrdenada(){
